@@ -10,7 +10,7 @@ export default function Home() {
         <h1>TEST</h1>
         <h1>TEST</h1>
         <h1>TEST</h1>
-        <h1>TEST</h1>
+        <h1>Elaboramos software de calidad a tu medida.</h1>
         <h1>TEST</h1>
         <h1>TEST</h1>
         <h1>TEST</h1>

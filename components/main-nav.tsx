@@ -1,6 +1,6 @@
 "use client"
 
-import { Bike, GanttChart, Package, Store, Wrench } from "lucide-react";
+import { ArrowRight, Mail } from "lucide-react";
 import Link from "next/link";
 import React from "react";
 
@@ -41,13 +41,22 @@ const MainNav = (props: { withSheetClose?: any, className?: string }) => {
                     <Link
                         key={idx}
                         href={item.href}
-                        className={cn((buttonVariants({ variant: 'ghost' })), "text-lg gap-x-2")}
+                        className={cn((buttonVariants({ variant: 'ghost' })), "text-lg lg:text-sm gap-x-2 hover:text-orange-500")}
                     >
                         {/* {item.icon} */}
                         {item.label}
                     </Link>
                 </SheetCloseWrapper>
             ))}
+            <SheetCloseWrapper {...sheetCloseWrapperProps}>
+                <Link
+                    href='mailto:aguslblumenfeld@gmail.com'
+                    className={cn((buttonVariants({ variant: 'default' })), "group text-lg lg:text-sm lg:hover:font-bold bg-orange-500 hover:bg-orange-500/90 transition-all")}
+                >
+                    <Mail className="h-4 w-4 mr-2 lg:group-hover:w-0 lg:group-hover:mr-0 transition-all" />
+                    ¡Hablemos!
+                </Link>
+            </SheetCloseWrapper>
         </nav>
     );
 }
