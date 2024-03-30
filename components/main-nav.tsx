@@ -48,8 +48,8 @@ const MainNav = (props: { withSheetClose?: any, className?: string }) => {
                     </Link>
                 </SheetCloseWrapper>
             ))}
-            <SheetCloseWrapper {...sheetCloseWrapperProps} >
-                <ContactButton className="py-6 px-8 lg:px-4 lg:py-2" />
+            <SheetCloseWrapper {...sheetCloseWrapperProps}>
+                <ContactButton className="py-6 px-8 my-2 lg:my-0 lg:px-4 lg:py-2" />
             </SheetCloseWrapper>
         </nav>
     );
