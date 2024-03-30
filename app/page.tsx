@@ -42,6 +42,7 @@ export default function Home() {
             imageUrl="/quitel.png"
             imageAlt="XLVI International Congress of Theoretical Chemists of Latin Expression"
           />
+
         </div>
       </div>
     </main>

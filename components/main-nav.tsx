@@ -41,7 +41,7 @@ const MainNav = (props: { withSheetClose?: any, className?: string }) => {
                     <Link
                         key={idx}
                         href={item.href}
-                        className={cn((buttonVariants({ variant: 'ghost' })), " select-none text-lg lg:text-sm gap-x-2 hover:text-orange-500")}
+                        className={cn((buttonVariants({ variant: 'ghost' })), "select-none text-lg lg:text-sm gap-x-2 hover:text-orange-500 hover:bg-transparent")}
                     >
                         {/* {item.icon} */}
                         {item.label}
