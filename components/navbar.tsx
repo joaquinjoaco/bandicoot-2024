@@ -7,7 +7,7 @@ import { Button } from "./ui/button";
 const Navbar = () => {
     return (
         <div className="fixed flex flex-row items-center justify-center w-full">
-            <div className="flex flex-1 m-6 px-6 py-4 rounded-xl bg-red-200/10 backdrop-blur lg:max-w-[1000px]">
+            <div className="flex flex-1 m-6 px-6 py-4 rounded-xl bg-orange-500/5 backdrop-blur lg:max-w-[1000px]">
 
                 <div className="flex justify-between items-center w-full">
                     <Image
