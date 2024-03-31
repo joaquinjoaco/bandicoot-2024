@@ -36,7 +36,7 @@ const ProjectLink = ({
                         className="w-full rounded-xl lg:group-hover:brightness-50 transition-all"
                     />
                 </div>
-                <div className="absolute flex flex-col items-center p-8 rounded-xl text-center text-white bg-white/10 font-bold text-3xl top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 opacity-0 lg:group-hover:opacity-100 lg:group-hover:backdrop-blur transition-all">
+                <div className="absolute flex flex-col items-center p-8 rounded-xl text-center text-white bg-white/10 font-bold text-3xl top-[45%] left-1/2 transform -translate-x-1/2 -translate-y-1/2 opacity-0 lg:group-hover:opacity-100 lg:group-hover:backdrop-blur transition-all">
                     {description}
                     <div className="flex items-center text-sm my-4">
                         {toDemo && <ExternalLink className="h-4 w-4 mr-2" />}
