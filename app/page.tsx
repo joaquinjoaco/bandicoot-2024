@@ -11,7 +11,7 @@ import Collaborator from "@/components/ui/collaborator";
 
 export default function Home() {
   return (
-    <main className="mx-auto py-48 px-6 max-w-[1000px]">
+    <main className="mx-auto py-48 px-6 min-h-[100vh] max-w-[1000px]">
       <div className="flex flex-col gap-y-24">
 
         {/* Hero */}

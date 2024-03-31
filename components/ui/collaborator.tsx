@@ -32,7 +32,7 @@ const Collaborator = ({
             <p className="text-sm text-muted-foreground">{role}</p>
             <Link
                 href={linkedinUrl}
-                className={cn((buttonVariants({ variant: 'ghost', size: 'icon' })), "my-2")}
+                className={cn((buttonVariants({ variant: 'ghost', size: 'icon' })), "hover:text-orange-500 my-2")}
                 target="_blank"
             >
                 <LinkedinIcon className="h-6 w-6" />

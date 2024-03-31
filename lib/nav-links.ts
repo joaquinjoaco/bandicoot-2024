@@ -5,12 +5,12 @@ export const navLinks = [
     //     // icon: <ArrowRight className="h-4 w-4" />,
     // },
     {
-        href: '/',
+        href: '/nosotros',
         label: 'Nosotros',
         // icon: <ArrowRight className="h-4 w-4" />,
     },
     {
-        href: '/',
+        href: '/proyectos',
         label: 'Nuestro trabajo',
         // icon: <ArrowRight className="h-4 w-4" />,
     },
