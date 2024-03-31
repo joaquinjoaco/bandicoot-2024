@@ -1,14 +1,13 @@
 import Link from "next/link";
-import { ArrowRight, LinkedinIcon } from "lucide-react";
+import Image from "next/image";
+import { ArrowRight } from "lucide-react";
 
 import { buttonVariants } from "@/components/ui/button";
 import ContactButton from "@/components/ui/contact-button";
 import Heading from "@/components/ui/heading";
 import { cn } from "@/lib/utils";
 import ProjectLink from "@/components/ui/project-link";
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import Collaborator from "@/components/ui/collaborator";
-import Image from "next/image";
 
 export default function Home() {
   return (
@@ -81,10 +80,6 @@ export default function Home() {
             />
           </div>
         </div>
-
-        <footer className="">
-
-        </footer>
 
       </div>
     </main>

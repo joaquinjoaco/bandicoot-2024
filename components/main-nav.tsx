@@ -7,6 +7,7 @@ import { buttonVariants } from "./ui/button";
 import { cn } from "@/lib/utils";
 import { SheetClose } from "./ui/sheet";
 import ContactButton from "./ui/contact-button";
+import { navLinks } from "@/lib/nav-links";
 // import { NavigationMenu, NavigationMenuContent, NavigationMenuItem, NavigationMenuList, NavigationMenuTrigger } from "./ui/navigation-menu";
 // import { ListItemBig } from "./ui/list-item-big";
 
@@ -16,23 +17,7 @@ const MainNav = (props: { withSheetClose?: any, className?: string }) => {
         ? [SheetClose, { asChild: true }]
         : [React.Fragment, {}];
 
-    const primary = [
-        // {
-        //     href: '/',
-        //     label: 'Servicios',
-        //     // icon: <ArrowRight className="h-4 w-4" />,
-        // },
-        {
-            href: '/',
-            label: 'Nosotros',
-            // icon: <ArrowRight className="h-4 w-4" />,
-        },
-        {
-            href: '/',
-            label: 'Nuestro trabajo',
-            // icon: <ArrowRight className="h-4 w-4" />,
-        },
-    ];
+    const primary = navLinks;
 
     return (
         <nav className={cn("flex gap-x-4", props.className)}>
