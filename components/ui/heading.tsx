@@ -6,7 +6,7 @@ const Heading = ({
     className,
 }: {
     title: string;
-    description: string;
+    description?: string;
     className?: string;
 }) => {
     return (
