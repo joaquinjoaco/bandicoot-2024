@@ -10,7 +10,7 @@ const ProyectosPage = () => {
                     className="border-b-2 border-orange-500"
                 />
                 <ProjectLink
-                    href="/"
+                    href="/proyectos/quitel-23"
                     title="Nuestro más reciente trabajo"
                     description="XLVI International Congress of Theoretical Chemists of Latin Expression"
                     imageUrl="/quitel.png"

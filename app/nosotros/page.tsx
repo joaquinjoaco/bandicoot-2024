@@ -1,4 +1,4 @@
-import Collaborator from "@/components/ui/collaborator";
+import Collaborator from "@/components/ui/collaborator-card";
 import Heading from "@/components/ui/heading";
 import Image from "next/image";
 

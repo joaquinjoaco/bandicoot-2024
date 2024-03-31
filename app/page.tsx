@@ -7,7 +7,7 @@ import ContactButton from "@/components/ui/contact-button";
 import Heading from "@/components/ui/heading";
 import { cn } from "@/lib/utils";
 import ProjectLink from "@/components/ui/project-link";
-import Collaborator from "@/components/ui/collaborator";
+import Collaborator from "@/components/ui/collaborator-card";
 
 export default function Home() {
   return (
@@ -24,7 +24,7 @@ export default function Home() {
           <div className="flex items-center justify-center gap-x-2">
             <ContactButton className="py-6 px-8" />
             <Link
-              href={'/'}
+              href={'/proyectos'}
               className={cn((buttonVariants({ variant: 'ghost' })), "group py-6 px-8 text-lg lg:font-medium lg:text-sm transition-all")}
             >
               Proyectos
@@ -35,7 +35,7 @@ export default function Home() {
 
         {/* Most recent project */}
         <ProjectLink
-          href="/"
+          href="/proyectos/quitel-23"
           title="Nuestro más reciente trabajo"
           description="XLVI International Congress of Theoretical Chemists of Latin Expression"
           imageUrl="/quitel.png"
