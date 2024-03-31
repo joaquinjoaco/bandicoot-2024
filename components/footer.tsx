@@ -11,7 +11,7 @@ const Footer = () => {
     return (
         <footer className="flex flex-col items-center mx-auto mt-auto px-6 w-full">
             <div className="w-full px-14 py-16 bg-secondary-foreground text-white rounded-t-xl lg:max-w-[1000px]">
-                <div className="grid grid-cols-2 gap-y-16 lg:grid-cols-3">
+                <div className="flex flex-col sm:grid sm:grid-cols-2 gap-y-16 lg:grid-cols-3">
                     <Image
                         src={'/bandicoot-software-white.svg'}
                         alt="bandicoot logo"
