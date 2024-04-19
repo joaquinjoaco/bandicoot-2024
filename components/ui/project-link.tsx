@@ -25,6 +25,7 @@ const ProjectLink = ({
             <Link
                 className="group flex flex-col relative"
                 href={href}
+                target={toDemo ? "_blank" : ""}
             >
                 <div className="rounded-xl lg:group-hover:shadow-lg lg:group-hover:shadow-orange-500/20">
                     <Image
